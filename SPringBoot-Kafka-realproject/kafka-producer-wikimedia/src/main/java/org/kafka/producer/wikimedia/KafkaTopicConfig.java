@@ -7,7 +7,6 @@ import org.springframework.kafka.config.TopicBuilder;
 
 @Configuration
 public class KafkaTopicConfig {
-
 	@Bean
 	public NewTopic myTopic() {
 		return TopicBuilder.name("wikimidea-recantChange").build();
